@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intro Photography Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Intro Photography</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section>
+			<h2>Welcome to Intro Photography</h2>
+			<p>We are a team of passionate photographers who love capturing beautiful moments.</p>
+		</section>
+		
+		<section>
+			<h2>About Us</h2>
+			<p>At Intro Photography, we specialize in capturing stunning photos that you can treasure for a lifetime. Whether you need photos for your wedding, engagement, family portraits, or any other special occasion, we have you covered.</p>
+		</section>
+		
+		<section>
+			<h2>Gallery</h2>
+			<p>Take a look at some of our stunning photography work.</p>
+			<div class="gallery">
+				<img src="photo1.jpg" alt="Photo 1">
+				<img src="photo2.jpg" alt="Photo 2">
+				<img src="photo3.jpg" alt="Photo 3">
+				<img src="photo4.jpg" alt="Photo 4">
+			</div>
+		</section>
+		
+		<section>
+			<h2>Contact Us</h2>
+			<form action="#" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+	</main>
+	
+	<footer>
+		<p>Copyright &copy; Intro Photography</p>
+	</footer>
+</body>
+</html>
