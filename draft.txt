@@ -46,7 +46,7 @@
    
         
 
-        <p>In progress!.</p>
+        <p>In progress!</p>
 
         
       </header>
